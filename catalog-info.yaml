@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: platform-docs
+  description: Stellarus IDP platform documentation
+  annotations:
+    github.com/project-slug: badal1443/stellarus-platform-docs
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - documentation
+    - platform
+spec:
+  type: documentation
+  lifecycle: production
+  owner: portal-backstage
+  system: interstellar-platform
